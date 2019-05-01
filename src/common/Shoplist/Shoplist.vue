@@ -48,7 +48,7 @@
       <li class="shop_li border-1px">
         <a>
           <div class="shop_left">
-            <img class="shop_img" src="./image/BSJ911.jpg">
+            <img class="shop_img" src="./image/BMM.jpg">
           </div>
           <div class="shop_right">
             <section class="shop_detail_header">
@@ -92,7 +92,7 @@
       <li class="shop_li border-1px">
         <a>
           <div class="shop_left">
-            <img class="shop_img" src="./image/quanxinglingke.jpg" alt="">
+            <img class="shop_img" src="./image/BSJ911.jpg">
           </div>
           <div class="shop_right">
             <section class="shop_detail_header">

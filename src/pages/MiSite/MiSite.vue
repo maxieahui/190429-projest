@@ -17,101 +17,53 @@
             <div class="swiper-slide">
               <a href="javascript:" class="link_to_food">
                 <div class="food_container">
-                  <img src="image/car2.jpg">
+                  <img src="./images1/aodi.jpg" alt="">
                 </div>
-                <span>甜品饮品</span>
+                <span>奥迪</span>
               </a>
               <a href="javascript:" class="link_to_food">
                 <div class="food_container">
-                  <img src="image/car3.jpg">
+                  <img src="./images1/benchi.jpg">
                 </div>
-                <span>商超便利</span>
+                <span>奔驰</span>
               </a>
               <a href="javascript:" class="link_to_food">
                 <div class="food_container">
-                  <img src="image/car3.jpg">
+                  <img src="./images1/BMM.jpg" >
                 </div>
-                <span>美食</span>
+                <span>宝马</span>
               </a>
               <a href="javascript:" class="link_to_food">
                 <div class="food_container">
-                  <img src="image/car4.jpg">
+                  <img src="./images1/dazhong.jpg">
                 </div>
-                <span>简餐</span>
-              </a>
-              <a href="javascript:" class="link_to_food">
-                <div class="food_container">
-                  <img src="image/car5.jpg">
-                </div>
-                <span>新店特惠</span>
-              </a>
-              <a href="javascript:" class="link_to_food">
-                <div class="food_container">
-                  <img src="image/car6.jpg">
-                </div>
-                <span>准时达</span>
-              </a>
-              <a href="javascript:" class="link_to_food">
-                <div class="food_container">
-                  <img src="image/car1.jpg">
-                </div>
-                <span>预订早餐</span>
-              </a>
-              <a href="javascript:" class="link_to_food">
-                <div class="food_container">
-                  <img src="image/car2.jpg">
-                </div>
-                <span>土豪推荐</span>
+                <span>大众</span>
               </a>
             </div>
             <div class="swiper-slide">
               <a href="javascript:" class="link_to_food">
                 <div class="food_container">
-                  <img src="image/car3.jpg">
+                  <img src="./images1/fengtian.jpg">
                 </div>
-                <span>甜品饮品</span>
+                <span>丰田</span>
               </a>
               <a href="javascript:" class="link_to_food">
                 <div class="food_container">
-                  <img src="image/car4.jpg">
+                  <img src="./images1/fute.jpg">
                 </div>
-                <span>商超便利</span>
+                <span>福特</span>
               </a>
               <a href="javascript:" class="link_to_food">
                 <div class="food_container">
-                  <img src="image/car5.jpg">
+                  <img src="./images1/honda.jpg">
                 </div>
-                <span>美食</span>
+                <span>Honda</span>
               </a>
               <a href="javascript:" class="link_to_food">
                 <div class="food_container">
-                  <img src="image/car6.jpg">
+                  <img src="./images1/nissan.jpg">
                 </div>
-                <span>简餐</span>
-              </a>
-              <a href="javascript:" class="link_to_food">
-                <div class="food_container">
-                  <img src="image/car1.jpg">
-                </div>
-                <span>新店特惠</span>
-              </a>
-              <a href="javascript:" class="link_to_food">
-                <div class="food_container">
-                  <img src="image/car2.jpg">
-                </div>
-                <span>准时达</span>
-              </a>
-              <a href="javascript:" class="link_to_food">
-                <div class="food_container">
-                  <img src="image/car3.jpg">
-                </div>
-                <span>预订早餐</span>
-              </a>
-              <a href="javascript:" class="link_to_food">
-                <div class="food_container">
-                  <img src="image/car4.jpg">
-                </div>
-                <span>土豪推荐</span>
+                <span>Nissan</span>
               </a>
             </div>
           </div>
@@ -147,7 +99,15 @@
         }
       })
     },
-    name: 'Guide',
+    created(){
+    },
+    methods:{
+      /*getlist(){
+        this.$ajax.get("Misite.json").then(result=>{
+          console.log(result)
+        }).catch()
+      }*/
+    },
     components: {
       Header,
       Shoplist
@@ -163,7 +123,7 @@
     .msite_nav
       bottom-border-1px(#e4e4e4)
       margin-top 45px
-      height 200px
+      height 100px
       background #fff
 
       .swiper-container
